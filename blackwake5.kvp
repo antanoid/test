@@ -24,14 +24,14 @@ App.DisplayName=Blackwake5
 App.RootDir=./blackwake/
 App.BaseDirectory=./blackwake/423410/
 App.ExecutableWin=423410\BlackwakeServer.exe
-App.ExecutableLinux=/usr/bin/wine
+App.ExecutableLinux=/usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" wine
 App.WorkingDir=423410
-App.LinuxCommandLineArgs=a wine "./423410/BlackwakeServer.exe -batchmode -nographics -logfile"
+App.LinuxCommandLineArgs=-a wine "./BlackwakeServer.exe"
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} -batchmode -nographics {{$FormattedArgs}} -logfile -
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
-App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"420290","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"420290","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"+all"}
 App.CommandLineParameterFormat=-{0}={1}
 App.CommandLineParameterDelimiter= 
 App.ExitMethod=OS_CLOSE
