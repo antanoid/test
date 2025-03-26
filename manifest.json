@@ -1,8 +1,8 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"id": "ec555555-c67b-4cf8-923f-dc27fea91ee1",
+	"authors": ["ant", "AMP Community"],
+	"origin": "https://github.com/antanoid/test.git",
+	"url": "https://github.com/antanoid/test",
 	"imagefile": "",
 	"prefix": "",
 	"repotype": "AppTemplates"
